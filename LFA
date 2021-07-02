@@ -1,0 +1,20 @@
+def multiply(x, y):
+    return x * y
+
+
+def divide(x, y):
+    return x / y
+
+
+print("            Low Fat Finder")
+print(" Do you want to start")
+choice = input("Enter choice(start): ")
+
+if choice in (" start "):
+    num1 = float(input("Enter Fat Grams: "))
+    num2 = float(input("Enter Calories: "))
+print(num1, "*", 9, "=", multiply(
+    num1,
+    9,
+))
+print(num1 * 9 / num2), divide(num1 * 9, num2)
